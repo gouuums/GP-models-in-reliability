@@ -2,7 +2,7 @@ import numpy as np
 from smt.applications import MFK
 
 class MultiFidelityModel:
-    """Implement the Gaussian Process regression for multi-fidelity problems,
+    """Implement the Gaussian process regression for multi-fidelity problems,
     using the MFK method from SMT"""
     def __init__(self):
         self.model = None
