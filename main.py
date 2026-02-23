@@ -1,5 +1,5 @@
 import numpy as np
-from AMGPRA import AMGPRA
+from code_amgpra import AMGPRA
 import matplotlib.pyplot as plt
 
 def g_hf(x):
