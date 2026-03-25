@@ -1,10 +1,10 @@
-This repository provides open-source Python implementations of advanced active learning algorithms for structural reliability analysis[cite: 607]. [cite_start]Developed as a final project for **ENSAI** in collaboration with the **DGA** (Direction Générale de l'Armement), this project focuses on the **AMGPRA** method[cite: 1, 5, 137].
+This repository provides open-source Python implementations of advanced active learning algorithms for structural reliability analysis. Developed for a final project at **ENSAI**, in collaboration with the **DGA** (Direction Générale de l'Armement), this project focuses on the **AMGPRA** method.
 
 ## 📌 Project Overview
 The primary objective is to estimate the **Probability of Failure ($P_f$)** for complex physical systems where standard numerical simulations are computationally prohibitive. By leveraging **multi-fidelity metamodels** (Gaussian processes-Kriging), we integrate high-fidelity (HF) evaluations with significantly cheaper low-fidelity (LF) simulations. This approach reduces overall computational costs while maintaining high precision in identifying the limit state boundary.
 
 ### Key Implemented Methods
-[cite_start]This repository includes scratch-built implementations for the following strategies:
+This repository includes scratch-built implementations for the following strategies:
 
 * **AK-MCS** (Active learning Kriging - Monte Carlo Simulation): A baseline single-fidelity approach using the $U$ learning function to identify the most informative enrichment points.
 * **mfEGRA** (Multi-fidelity Efficient Global Reliability Analysis): A multi-fidelity method utilizing a two-step process that first selects the point and then the fidelity level based on information gain.
