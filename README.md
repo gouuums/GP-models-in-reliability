@@ -1,3 +1,5 @@
+# Gaussian Process Regression and its application in reliability analysis - Final year project
+
 This repository provides open-source Python implementations of advanced active learning algorithms for structural reliability analysis. Developed for a final project at **ENSAI**, in collaboration with the **DGA** (Direction Générale de l'Armement), this project focuses on the **AMGPRA** method.
 
 ## 📌 Project Overview
